@@ -40,7 +40,7 @@ RUN a2enmod rewrite ssl
 #RUN chown -R www-data:www-data /var/www/owncloud
 RUN chmod +x /start.sh
 
-EXPOSE 80
-EXPOSE 443
+EXPOSE 1337
+EXPOSE 117
 
 CMD ["/start.sh"]
